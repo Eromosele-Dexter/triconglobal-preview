@@ -33,7 +33,7 @@ export function applyLanguage() {
   toggle.textContent = 'EN / FR';
   toggle.setAttribute('aria-label', label);
   toggle.setAttribute('aria-pressed', String(language === 'fr'));
-  document.title = `${document.querySelector('h1').textContent} — Tricon Global Trading`;
+  document.title = `${document.querySelector('h1').textContent} | Tricon Global Trading`;
 }
 export function toggleLanguage() {
   if (language === 'en') language = 'fr';

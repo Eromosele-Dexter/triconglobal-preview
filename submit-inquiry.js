@@ -2,7 +2,7 @@ import { isStaticPreview, showPreviewNotice } from './static-preview.js';
 import { INQUIRY_STATUS, SUBMISSION_MESSAGES } from './inquiry-contract.js';
 import { applyLanguage, getLanguage, translate } from './language.js';
 
-const REQUEST_TIMEOUT_MILLISECONDS = 30_000;
+const REQUEST_TIMEOUT_MILLISECONDS = 45_000;
 export async function submitInquiry(form, requestType, successState) {
   if (isStaticPreview()) { showPreviewNotice(form); return; }
   if (form.dataset.sending === 'true') return;

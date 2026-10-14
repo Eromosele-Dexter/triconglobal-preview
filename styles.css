@@ -186,7 +186,7 @@ img, svg { display: block; max-width: 100%; }
 .role-panel:first-child p { color: rgba(244,240,232,.62); }
 .role-list { display: grid; gap: 11px; margin: 24px 0 30px; padding: 0; list-style: none; }
 .role-list li { display: flex; gap: 10px; align-items: start; font-size: 12px; }
-.role-list li::before { content: '—'; color: var(--laterite); }
+.role-list li::before { content: '•'; color: var(--laterite); }
 
 .disclosure { padding: 22px 0; background: #eae4d9; }
 .disclosure-inner { display: flex; justify-content: space-between; gap: 30px; align-items: center; }

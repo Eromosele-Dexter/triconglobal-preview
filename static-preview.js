@@ -1,6 +1,6 @@
 import { translate } from './language.js';
 
-export const PREVIEW_NOTICE = 'GitHub preview — forms do not send requests.';
+export const PREVIEW_NOTICE = 'GitHub preview: forms do not send requests.';
 export function isStaticPreview() {
   return document.querySelector('meta[name="tricon-static-preview"]')?.content === 'true';
 }
